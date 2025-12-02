@@ -50,59 +50,59 @@ Turn your manual inventory spreadsheets into a modern, automated dashboard.
 
 Create a Virtual Environment (Optional but recommended):
 
-code
-Bash
-download
-content_copy
-expand_less
+
+
+
+
+
 python m venv venv
 
 Windows
 
-code
-Bash
-download
-content_copy
-expand_less
+
+
+
+
+
 .\venv\Scripts\activate
 
 Mac/Linux
 
-code
-Bash
-download
-content_copy
-expand_less
+
+
+
+
+
 source venv/bin/activate
 
 Install dependencies:
 
-code
-Bash
-download
-content_copy
-expand_less
+
+
+
+
+
 pip install r requirements.txt
 
 Set up Secrets:
 Create a folder named .streamlit and a file inside named secrets.toml:
 
-code
+
 Toml
-download
-content_copy
-expand_less
+
+
+
 SUPABASE_URL = "your_supabase_url"
 SUPABASE_KEY = "your_supabase_anon_key"
 ADMIN_PASSWORD = "StockPilot2025!"
 
 Run the application:
 
-code
-Bash
-download
-content_copy
-expand_less
+
+
+
+
+
 streamlit run app.py
 
 🔑 Configuration
@@ -126,8 +126,7 @@ GitHub Profile
 
 Created for Portfolio 2025
 
-code
+
 Code
-download
-content_copy
-expand_less
+
+
