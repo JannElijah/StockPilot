@@ -1,110 +1,113 @@
-
 # 🚀 StockPilot
 
-![Python](https://img.shields.io/badge/Python3.10%2Bblue) 
-![Streamlit](https://img.shields.io/badge/StreamlitFrameworkFF4B4B) 
-![Supabase](https://img.shields.io/badge/SupabaseDatabase3ECF8E)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
-StockPilot is a professional Inventory Management System designed to bridge the gap between physical stock and digital tracking. By integrating a realtime Supabase cloud database with Streamlit, it allows businesses to track assets, visualize value distribution, and autogenerate QR codes for seamless inventory control.
+**StockPilot** is a professional Inventory Management System designed to bridge the gap between physical stock and digital tracking. By integrating a real-time **Supabase** cloud database with **Streamlit**, it allows businesses to track assets, visualize value distribution, and auto-generate QR codes for seamless inventory control.
 
-<br>
+---
 
-<div align="center">
-  <img src="your_dashboard_screenshot.png" alt="StockPilot Dashboard" width="800">
+<div align="center"> 
+  <!-- INSTRUCTIONS: Take a screenshot of your dashboard, name it 'dashboard.png', and put it in your folder -->
+  <img src="dashboard.png" alt="StockPilot Dashboard" width="100%">
 </div>
 
- StockPilot Pro 📦
-Turn your manual inventory spreadsheets into a modern, automated dashboard.
+---
 
-📂 Source Material
-   Realtime Database: Connects directly to Supabase (PostgreSQL).
-   Live Analytics: Tracks Total SKUs, Low Stock Alerts, and Asset Value.
+### StockPilot Pro 📦
+**Turn your manual inventory spreadsheets into a modern, automated dashboard.**
+
+📂 **Source Material**
+*   **Real-time Database:** Connects directly to Supabase (PostgreSQL).
+*   **Live Analytics:** Tracks Total SKUs, Low Stock Alerts, and Asset Value.
 
 <br>
 
-🚀 Key Features
+### 🚀 Key Features
 
-   📊 Executive Dashboard: Uses Altair charts for interactive visualization of stock levels and value distribution.
-   ☁️ Cloud Database: Fully integrated with Supabase for persistent, secure data storage (CRUD).
-   📱 QR Code Generation: Autogenerates unique QR codes for every product using the `qrcode` library.
-   🔒 Secure Access: Builtin Admin Authentication system to protect sensitive database operations.
-   📉 Smart Alerts: Visual progress bars and toast notifications for lowstock items.
-   📥 Data Export: Oneclick CSV export for reporting and external analysis.
-   🎨 Modern UI: A customstyled interface featuring Dark Mode, Glassmorphism cards, and responsive tabs.
+*   📊 **Executive Dashboard:** Uses Altair charts for interactive visualization of stock levels and value distribution.
+*   ☁️ **Cloud Database:** Fully integrated with **Supabase** for persistent, secure data storage (CRUD).
+*   📱 **QR Code Generation:** Auto-generates unique QR codes for every product using the `qrcode` library.
+*   🔒 **Secure Access:** Built-in Admin Authentication system to protect sensitive database operations.
+*   📉 **Smart Alerts:** Visual progress bars and toast notifications for low-stock items.
+*   📥 **Data Export:** One-click CSV export for reporting and external analysis.
+*   🎨 **Modern UI:** A custom-styled interface featuring Dark Mode, Glassmorphism cards, and responsive tabs.
 
-🛠️ Tech Stack
+### 🛠️ Tech Stack
 
-   Frontend: Streamlit (Custom CSS styling)
-   Backend: Python 3.x
-   Database: Supabase (PostgreSQL)
-   Visualization: Altair & Pandas
-   Utilities: Qrcode, Pillow
+*   **Frontend:** Streamlit (Custom CSS styling)
+*   **Backend:** Python 3.x
+*   **Database:** Supabase (PostgreSQL)
+*   **Visualization:** Altair & Pandas
+*   **Utilities:** Qrcode, Pillow
 
-📦 How to Run Locally
+---
 
-1. Clone the repository:
+### 📦 How to Run Locally
 
-   bash
-   git clone https://github.com/JannElijah/stockpilot.git
-   cd stockpilot
+**1. Clone the repository:**
 
-Create a Virtual Environment (Optional but recommended):
+```bash
+git clone https://github.com/JannElijah/stock-pilot.git
+cd stock-pilot
 
+2. Create a Virtual Environment (Optional but recommended):
 
+code
+Bash
+download
+content_copy
+expand_less
+python -m venv venv
 
+Windows:
 
-
-
-python m venv venv
-
-Windows
-
-
-
-
-
-
+code
+Bash
+download
+content_copy
+expand_less
 .\venv\Scripts\activate
 
-Mac/Linux
+Mac/Linux:
 
-
-
-
-
-
+code
+Bash
+download
+content_copy
+expand_less
 source venv/bin/activate
 
-Install dependencies:
+3. Install dependencies:
 
+code
+Bash
+download
+content_copy
+expand_less
+pip install -r requirements.txt
 
-
-
-
-
-pip install r requirements.txt
-
-Set up Secrets:
+4. Set up Secrets:
 Create a folder named .streamlit and a file inside named secrets.toml:
 
-
+code
 Toml
-
-
-
+download
+content_copy
+expand_less
 SUPABASE_URL = "your_supabase_url"
 SUPABASE_KEY = "your_supabase_anon_key"
 ADMIN_PASSWORD = "StockPilot2025!"
 
-Run the application:
+5. Run the application:
 
-
-
-
-
-
+code
+Bash
+download
+content_copy
+expand_less
 streamlit run app.py
-
 🔑 Configuration
 
 To use the Database features, you need a Supabase Project.
@@ -126,7 +129,22 @@ GitHub Profile
 
 Created for Portfolio 2025
 
-
+code
 Code
+download
+content_copy
+expand_less
+### 2. How to fix the Image (Important)
 
+In the code above, I added this line:
+`<img src="dashboard.png" ... >`
 
+For the image to actually show up:
+1.  Take a nice screenshot of your Dashboard.
+2.  Rename the file to `dashboard.png`.
+3.  **Drag and drop** that file into your `StockPilot` folder (the same place where `app.py` is).
+4.  Push the changes to GitHub.
+
+If you don't do this, you will see a broken image icon.
+
+Try pasting this new code and let me know if the "Preview" looks cleaner!
