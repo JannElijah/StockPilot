@@ -79,7 +79,7 @@
    ```
 
 
-🔑 Configuration
+## 🔑 Configuration
 
 To use the Database features, you need a Supabase Project.
 
@@ -89,14 +89,13 @@ Run the SQL query provided in the repo to create the inventory table.
 
 Enter the URL and Key in the secrets.toml file (Step 4 above).
 
-👤 Author
+## 👤 Author
 
-Jann Elijah B. Limpiado
-3rd Year IT Student
+**Jann Elijah B. Limpiado**
+<br>
+*3rd Year IT Student*
 
-![alt text](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)
-
-
-![alt text](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jannlimpiado)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/JannElijah)
 
 Created for Portfolio 2025
