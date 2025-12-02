@@ -1,12 +1,3 @@
-Here is the complete, corrected, and formatted README.md file. I have cleaned up the chat interface text, fixed the code blocks, and linked your profile URLs correctly.
-
-You can copy and paste this entire block:
-
-code
-Markdown
-download
-content_copy
-expand_less
 # 🚀 StockPilot
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)
@@ -61,11 +52,11 @@ expand_less
 
 Create a Virtual Environment (Optional but recommended):
 
-code
-Bash
-download
-content_copy
-expand_less
+
+
+
+
+
 python -m venv venv
 
 # Windows:
@@ -76,21 +67,21 @@ source venv/bin/activate
 
 Install dependencies:
 
-code
-Bash
-download
-content_copy
-expand_less
+
+
+
+
+
 pip install -r requirements.txt
 
 Set up Secrets:
 Create a folder named .streamlit and a file inside named secrets.toml:
 
-code
+
 Toml
-download
-content_copy
-expand_less
+
+
+
 [secrets]
 SUPABASE_URL = "your_supabase_url"
 SUPABASE_KEY = "your_supabase_anon_key"
@@ -98,11 +89,11 @@ ADMIN_PASSWORD = "StockPilot2025!"
 
 Run the application:
 
-code
-Bash
-download
-content_copy
-expand_less
+
+
+
+
+
 streamlit run app.py
 🔑 Configuration
 
@@ -126,8 +117,5 @@ Jann Elijah B. Limpiado
 
 Created for Portfolio 2025
 
-code
-Code
-download
-content_copy
-expand_less
+
+
