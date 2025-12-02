@@ -51,7 +51,7 @@ Turn your manual inventory spreadsheets into a modern, automated dashboard.
 Create a Virtual Environment (Optional but recommended):
 
 code
-
+Bash
 download
 content_copy
 expand_less
@@ -60,7 +60,7 @@ python m venv venv
 Windows
 
 code
-
+Bash
 download
 content_copy
 expand_less
@@ -69,7 +69,7 @@ expand_less
 Mac/Linux
 
 code
-
+Bash
 download
 content_copy
 expand_less
@@ -78,7 +78,7 @@ source venv/bin/activate
 Install dependencies:
 
 code
-
+Bash
 download
 content_copy
 expand_less
@@ -99,7 +99,7 @@ ADMIN_PASSWORD = "StockPilot2025!"
 Run the application:
 
 code
-
+Bash
 download
 content_copy
 expand_less
@@ -125,3 +125,9 @@ LinkedIn Profile
 GitHub Profile
 
 Created for Portfolio 2025
+
+code
+Code
+download
+content_copy
+expand_less
